@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter";
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.t {
+    font-size: 80px;
+    text-align: center;
+}
+
+.p {
+    margin-top: -2mm;
+    margin-left: 5mm;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a {
+    color: black;
+    text-decoration: solid;
+    font-size: 38px;
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.a2 {
+    color: black;
+    text-decoration: solid;
+    font-size: 38px;
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.a:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.a2:hover {
+    text-decoration: underline;
+    transition: 0.3s linear;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+@media (max-width:700px) {
+   
+    .t {
+        font-size: 70px;
+    }
+}
