@@ -20,3 +20,10 @@ function alert3() {
         icon: "success" ,
     })
 }
+
+function alert4() {
+    Swal.fire({
+        title: "Esse site foi inspirado na loja New York Yankees!",
+        icon: "info"
+    })
+}
